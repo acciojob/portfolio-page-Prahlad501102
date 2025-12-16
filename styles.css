@@ -1,2 +1,51 @@
 
 /* Your CSS Code here. */
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline;
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+}
+
+img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+    display: block;
+}
+
+section {
+    margin-top: 30px;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+}
+
+#skills ul, #projects ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
