@@ -1,43 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Accessible Portfolio Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Accessible Portfolio Page</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <h1 role="heading">Jane Doe - Accessible Portfolio</h1>
-    
-    <nav role="navigation">
-        <ul role="list">
-            <li role="listitem"><a href="#skills">Skills</a></li>
-            <li role="listitem"><a href="#projects">Projects</a></li>
-            <li role="listitem"><a href="https://www.linkedin.com/in/janedoe" target="_blank">LinkedIn Profile</a></li>
-        </ul>
-    </nav>
-    
-    <img src="my-portfolio-image.jpg" alt="A professional photo of Jane Doe." role="img">
-    
-    <p>
-        Hello! I am Jane Doe, a developer with a focus on accessible and modern web solutions. 
-        This portfolio showcases my work and technical abilities.
-    </p>
-    
-    <section id="skills">
-        <h2>Technical Skills</h2>
-        <ul role="list">
-            <li role="listitem">JavaScript (React, Node.js)</li>
-            <li role="listitem">HTML5 & CSS3</li>
-            <li role="listitem">Accessibility (ARIA)</li>
-        </ul>
-    </section>
 
-    <section id="projects">
-        <h2>My Projects</h2>
-        <ul role="list">
-            <li role="listitem">E-commerce Platform (Full Stack Development)</li>
-            <li role="listitem">Personal Blog Site (Static Site Generator)</li>
-            <li role="listitem">Accessibility Audit Tool (Open Source)</li>
-        </ul>
-    </section>
+<body>
+
+  <!-- Name -->
+  <h1>Prahlad Kumar</h1>
+
+  <!-- Profile Image -->
+  <img 
+    src="profile.jpg"
+    alt="Prahlad Kumar Profile Photo"
+    width="150"
+  >
+
+  <!-- LinkedIn Profile -->
+  <p>
+    <a href="https://www.linkedin.com/feed/" target="_blank">
+      LinkedIn Profile
+    </a>
+  </p>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <p>
+      HTML, CSS, JavaScript, React, MERN Stack, Git, GitHub
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>E-Commerce Web Application</li>
+      <li>JWT Authentication System</li>
+      <li>Personal Portfolio Website</li>
+    </ul>
+  </section>
+
 </body>
 </html>
